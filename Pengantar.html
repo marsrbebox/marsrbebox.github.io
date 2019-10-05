@@ -18,7 +18,6 @@ body {
 header {
   background-color: #666;
   padding: 30px;
-  width:100%;
   text-align: center;
   font-size: 25px;
   color: white;
@@ -37,14 +36,13 @@ article {
 footer {
   background-color: #777;
   padding: 10px;
-  width:100%;
   text-align: center;
   color: white;
 }
 
 /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
 @media (max-width: 600px) {
-  nav, article {
+  header, article, footer {
     width: 100%;
     height: auto;
   }
